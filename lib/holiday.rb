@@ -20,7 +20,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   # return the second element in the 4th of July array
   holiday_supplies[:summer][:fourth_of_july][1]
 
-  end	
+  end
 
   def add_supply_to_winter_holidays(holiday_hash, supply)
     # holiday_hash is identical to the one above
@@ -30,7 +30,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_supplies[:winter][:christmas]<< supply
 
 
-end	
+end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
@@ -44,7 +44,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
   holiday_hash [season][holiday_name] = supply_array
 
-  holiday_hash 
+  holiday_hash
 
 end
 
